@@ -79,7 +79,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 36px;
+  margin: 36px 0;
 }
 /* Top Players Start */
 .top-players {
@@ -210,3 +210,33 @@ main {
   color: #ff4a60;
 }
 /* Latest Courses End */
+
+/* Footer Start */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1e1e1e;
+  padding: 20px 0;
+}
+.footer {
+  width: 930px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .copyright {
+  color: #fff;
+}
+.footer .social a {
+  padding: 0 5px;
+  margin-left: 5px;
+  background-color: #562eff;
+  border-radius: 5px;
+}
+.footer .social a i {
+  color: #fff;
+  transition: transform 1s;
+}
+.footer .social i:hover {
+  transform: rotate(360deg);
+}
